@@ -1,0 +1,1 @@
+document.write("<br><h2>This is an example of external javaScript<h2>");

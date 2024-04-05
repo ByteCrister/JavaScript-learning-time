@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script - 34</title>
+
+    <style>
+        .button{
+            padding: 10px 20px;
+            font-size: 30px;
+            margin: auto 20px;
+        }
+
+        .animation-a{
+            animation-name: anim-a;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+            background-color:rgb(157, 212, 194);
+        }
+        @keyframes anim-a{
+            0%{
+                box-shadow: 0px 0px 0px 0px rgb(154, 214, 14);
+                background-color:rgb(157, 212, 194);
+            }
+            50%{
+                box-shadow: 0px 1px 30px 10px rgb(219, 92, 18);
+                background-color:rgb(14, 124, 87);
+                color: beige;
+                
+            }
+            100%{
+                box-shadow: 0px 0px 0px 0px rgb(154, 214, 14);
+                background-color:rgb(157, 212, 194);
+                
+            }
+        }
+
+        .animation-b{
+            animation-name: anim-b;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+            background-color:rgb(157, 212, 194);
+        }
+        @keyframes anim-b{
+            0%{
+                box-shadow: 0px 0px 0px 0px rgb(214, 87, 14);
+                background-color:rgb(157, 212, 194);
+            }
+            50%{
+                box-shadow: 0px 1px 30px 10px rgb(219, 216, 18);
+                background-color:rgb(14, 124, 87);
+                color: beige;
+                
+            }
+            100%{
+                box-shadow: 0px 0px 0px 0px rgb(214, 87, 14);
+                background-color:rgb(157, 212, 194);
+                
+            }
+        }
+
+        .animation-c{
+            animation-name: anim-c;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+            background-color:rgb(157, 212, 194);
+        }
+        @keyframes anim-c{
+            0%{
+                box-shadow: 0px 0px 0px 0px rgb(214, 87, 14);
+                background-color:rgb(157, 212, 194);
+            }
+            50%{
+                box-shadow: 0px 1px 30px 10px rgb(18, 196, 219);
+                background-color:rgb(14, 124, 87);
+                color: beige;
+                
+            }
+            100%{
+                box-shadow: 0px 0px 0px 0px rgb(214, 87, 14);
+                background-color:rgb(157, 212, 194);
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <button class="button a">
+        a
+    </button>
+    <button class="button b">
+        b
+    </button>
+    <button class="button c">
+        c
+    </button>
+
+    <script src="Script_34.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+
+<style>
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .options{
+        background-color: rgb(238, 248, 94);
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        border-radius: 50px;
+        padding: 10px;
+    }
+
+    .background{
+      
+        width: 400px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+       
+    }
+
+    label{
+        font-size: 30px;
+    }
+
+    #font{
+        font-size: 20px;
+        text-align: center;
+        font-weight:700;
+    }
+
+
+
+</style>
+
+
+<body>
+
+    <div class="main">
+        <div class="options">
+            <label for="Font" id="Font">Font
+                <select name="font" id="font">
+                    <option value="10" >10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15" selected>15</option>
+                </select>
+            </label>
+            <label for="Color" id="Color">Color
+                <select name="color" id="color">
+                    <option value="c93636">Red</option>
+                    <option value="7dc936">Green</option>
+                    <option value="5636c9">Blue</option>
+                </select>
+            </label>
+            
+        </div>
+        <div class="background" id="background">
+            <p>Background</p>
+
+        </div>
+    </div>
+
+    <script src="Script_70_localStorage.js"></script>
+</body>
+</html>
